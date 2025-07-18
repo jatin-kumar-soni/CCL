@@ -10,8 +10,8 @@ const AppContextProvider =(props) =>
 {
 
 const currencySymbol= '$'
-// const backendUrl = import.meta.env.VITE_BACKEND_URL
- const backendUrl = https://ccl-t1y5.onrender.comconst 
+const backendUrl = import.meta.env.VITE_BACKEND_URL
+ // const backendUrl = https://ccl-t1y5.onrender.comconst 
 const [doctors,setDoctors] = useState([])
 const [token,setToken] = useState(localStorage.getItem('token') ? localStorage.getItem('token') :false)
   
