@@ -8,7 +8,7 @@
     "frontend": "npm --prefix frontend run dev",
     "admin": "npm --prefix admin run dev",
     "server": "npm --prefix backend run start",
-    "start:both": "concurrently \"npm run frontend\" \"npm run admin\" \"npm run server\""
+    "start:both": "concurrently \"npm run server\" \"npm run admin\" \"npm run frontend\""
   },
   "author": "",
   "license": "ISC",
